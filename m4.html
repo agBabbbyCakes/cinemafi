@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>
+        Cinema.FI - build m4
+        </title>
+        <link rel="stylesheet" href="starsCSS.css">
+        <link rel="stylesheet" href="mstyle.css">
+    </head>
+    <body>
+        <header>
+        <div class="logoWrapper">
+        <img class="logoLogo" src="B_cinemaFI.png" alt="cinema.Fi">
+        </div>
+    </header>
+        <div id="topHeader" class="topHeaderClass">
+            <h1>Cinema.Fi</h1>
+            
+        </div>
+
+        <div id="leftSideDeck" class="leftSideDeckClass">
+            
+            <div class="leftSideDeckLittleVerticalBabyMenu">
+        
+                <button class="buttonSideA" onclick="location.href='e2.html'">Explore</button>    
+  <button class="buttonSideA" onclick="location.href='e2.html'">Status</button>
+ <button class="buttonSideA" onclick="location.href='s1.html'">Collection</button>
+        </div>
+        </div>
+
+
+
+        <!--<div class="mainFrameDeckWRAPPER">-->
+
+        <div id="mainFrameDeck" class="mainFrameDeckClass">
+            This is where the mainFrameDeck
+        </div>
+
+        <!-- SING IN WITH ETH (BOUNTY) (UNLOCK) -->
+        <div id="bountyUnlock" class="bountyUnlockClass">
+            <a class="linkSuperBig" href="https://app.unlock-protocol.com/checkout?client_id=ouvre-boite.com&redirect_uri=https://ouvre-boite.com/">Sign in with your ETH Wallet (Using Unlock)</a>
+        </div>
+<!-- END OF SING IN WITH ETH BASBY -->
+
+
+
+
+        <div id="bottomFrameDeck" class="bottomFrameDeckClass">
+
+            
+
+            <!-- I NEED TO ADD SOME JS HERE  - TO MAKE INSTANCES OF THIS DIV = "SingleFrame "-->
+            <div id="singleFrame" class="singleFrameClass">
+                <span class="rotatedText">F12</span>
+            </div>
+
+        </div>
+
+        <br>
+      
+
+        <div class="parent">
+            <div class="children left-children">
+              <div class="child">1</div>
+              <div class="child">2</div>
+              <div class="child">3</div>
+            </div>
+        
+          </div>
+<!-- AG JAVASCRIPT ATTEMPT #1 - DUPLICATE THE DIV INFINITE AMOUNT OF TIME (SIMULATE FRAMES)-->
+
+<br>
+
+
+
+        
+<form>
+    <div class="parent">
+        <div class="children left-children">
+            <div class="child">
+	<div id="Participentfieldwrap">
+    	1
+        
+        </div>        
+       
+
+    </div></div></div>
+</form>
+
+
+<script type="text/javascript">
+    var participantsField = document.getElementById("Participentfieldwrap"),
+        form = document.getElementsByTagName("form")[0],
+        ContestantNum = 16,
+        i;
+    for(i=0; i<ContestantNum; i++){
+      var clone = participantsField.cloneNode(true);
+      form.appendChild(clone);
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+        <!-- BOUNTY IMPORT #1 = Unlock -->
+        <script>
+            2   function loadUnlock(node, script) {
+            3     const js = node.createElement(script);
+            4     const sc = d.getElementsByTagName(script)[0];
+            5     
+            6     js.src="https://paywall.unlock-protocol.com/static/unlock.latest.min.js";  
+            7     sc.parentNode.insertBefore(js, sc);
+            8   }
+            9 
+            10   loadUnlock(document, "script");
+            11 </script>
+            12     
+            13 <script>
+            14   var unlockProtocolConfig = {
+            15     // paywallConfig object 
+            16   }
+            17 </script>
+
+            <!-- End of Bounty Import #1 = Unlock-->
+
+            
+
+    </body>
+</html>

@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+    font-size:16px;
+}
+
+
+/* HEADER BUSINESS */
+
+header {
+    background-color:white;
+}
+
+.logoWrapper {
+    width:100%;
+    text-align:center;
+}
+
+.logoLogo {
+    width:30%;
+    height:auto;
+    mix-blend-mode: multiply;
+}
+
+
+
+/*FRAME HORIZONTAL LOGIC*/
+.parent {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center; /* Align Items Vertically */
+  justify-content: space-between; /* Align Items Horizontally (with equal space in between each of them */
+  background: #eee;
+}
+
+.children {
+  display: flex;
+}
+
+.child {
+  margin: 0 5px;
+  padding: 0 5px;
+  font-size: 30px;
+  background: #ccc;
+  color: #000;
+}
+
+/*TEMP SHUT OFF THE HEADER */
+
+.topHeaderClass {display: none;}
+
+            .topHeaderClass{
+                height:150px;
+                width:100%;
+                background-color:white;
+                border-style:solid;
+                border-color:black;
+                border-size:10px;
+
+            }
+
+            .leftSideDeckClass {
+                width:150px;
+                height:auto;
+                background-color:white;
+                border-style:solid;
+                border-color:black;
+                border-size:10px;
+                border-radius:2.5px;
+
+            }
+
+            .mainFrameDeckWRAPPER {
+                /*This is going to be the mainDeckWrapper baby boyyyy */
+                height: 200px;
+                position: absolute;
+                display: flex;
+                border: 3px solid rgb(0, 0, 0); 
+
+            }
+
+            .mainFrameDeckClass {
+                width:100%;
+                height:360px;
+                background-color:rgba(255, 178, 255, 0.505);
+                border-style:solid;
+                border-color:black;
+                border-size:10px;
+                margin-top:10px;
+                max-width:720px;
+
+            }
+
+            .bottomFrameDeckClass {
+                width:100%;
+                height: 100px;
+                background-color:white;
+                border-style:solid;
+                border-color:black;
+                border-size:10px;
+                margin-top:10px;
+            }
+
+            .singleFrameClass {
+                background-color:black;
+                width:10px;
+                height:40px;
+                margin:10px;
+                display:flex;
+                text-align:center;
+                padding:10px;
+                flex-direction: column;
+
+            }
+
+
+            .rotatedText {
+                color:white;
+                transform:translate(-90deg); 
+                font-size:16px;
+
+            }
+
+            .leftSideDeckLittleVerticalBabyMenu {
+                display:block;
+            }
+
+         
+
+
+            .buttonSideA {
+                width:100%;
+                background-color:rgb(0, 0, 0);
+                color:white;
+                border-style:solid;
+                border-color:black;
+                border-size:1px;
+                
+            }
+
+            .buttonSideA:hover {
+                width:100%;
+                background-color:rgb(255, 255, 255);
+                color:rgb(0, 0, 0);
+                border-style:solid;
+                border-color:black;
+                border-size:1px;
+                
+            }
+
+       
+
+
+    .linkSuperBig{
+        padding:20px;
+        font-size:11px;
+        text-align:center;
+        height:100px;
+        width:100%;
+        background-color:rgb(0, 0, 0);
+                color:white;
+                border-style:solid;
+                border-color:black;
+                border-size:1px;
+
+    }
+
+    .linkSuperBig:hover {
+        padding:20px;
+        font-size:11px;
+        text-align:center;
+        height:100px;
+        width:100%;
+        background-color:rgb(255, 255, 255);
+                color:rgb(0, 0, 0);
+                border-style:solid;
+                border-color:black;
+                border-size:1px;
+
+    }
